@@ -2,8 +2,10 @@
 
 I'm sooo happy to see you again!
 Things are starting to get funnier... what if we start trying some prototype exercicies?
+
 How I wish to have a quickSort function on every array in my path... can you do it?
 But you know... I want you to implement it from scracth! Looking forward to see you again!
+
 Kind advice (again): DON'T USE A BUILTIN FUNCTION, this will take you out of the competition.
 
 ---
