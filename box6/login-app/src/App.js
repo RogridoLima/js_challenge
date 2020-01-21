@@ -9,7 +9,6 @@ function App() {
 
   //  any request with this email will pass 'eve.holt@reqres.in', password can be anything with 6 or more digits
 
-
   let [tried, setTried] = useState(false)
 
   let [email, setEmail] = useState('')
@@ -29,7 +28,7 @@ function App() {
       email: email,
       password: pass
     }
-    // let response = await 
+
     Axios.post('https://reqres.in/api/login', obj).then(res => {
 
       console.log(res);
