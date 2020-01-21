@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  background-color: #efefef;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+p {
+  font-size: 28px;color: coral; font-weight: bold;
+  cursor: default
+}
+
+.login-box {
+  width: 300px;
+  background-color: #fff;
+  padding: 40px 40px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: box-shadow 600ms ease-in-out;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.login-box:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.input-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+label {
+  color: #3f3f3f;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 5px 0;
+  border-bottom: 1px solid coral;
+  outline: 0;
+}
+
+input:focus, button:focus {
+  outline: 0;
+}
+
+.button-box {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width: 100%;
+}
+
+.login-button {
+  border-radius: 150px;
+  border: 1px solid #efefef;
+  padding: 8px 20px;
+  margin-top: 20px;
+
+  font-size: 14px;
+  color: #efefef;
+  font-weight: bold;
+  background-color: coral;
+
+  cursor: pointer;
+  transition: box-shadow 320ms ease-in-out;
+}
+
+.login-button:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color:chocolate
+}
+
+.register-text {
+  font-size: 12px;
+  text-align: right;
+}
+
+.register {
+  font-size: 12px;
+  text-align: center;
+
+  text-decoration: underline;
+
+  font-weight: bold;
+  cursor: pointer;
+  color: coral;
+  text-align: right;
+  display: block
+}
+
+.register:hover {
+  color:chocolate
+}

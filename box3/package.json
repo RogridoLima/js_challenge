@@ -1,0 +1,17 @@
+{
+  "name": "box3",
+  "version": "1.0.0",
+  "description": "Woah! Third box and moving on, great job!\r Okay, you know it ... you will need to initialize your project again from scratch. C'mon stop complaining! Life is not easy, you know that!",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.0.0"
+  }
+}

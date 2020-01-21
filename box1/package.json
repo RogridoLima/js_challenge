@@ -1,0 +1,17 @@
+{
+  "name": "box1",
+  "version": "1.0.0",
+  "description": "This is your very first code challenge... as soon as you finish this box, go to the next and enjoy!",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.0.0"
+  }
+}

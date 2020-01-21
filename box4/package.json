@@ -1,0 +1,14 @@
+{
+  "name": "box4",
+  "version": "1.0.0",
+  "description": "I'm sooo happy to see you again!\r Things are starting to get funnier... what if we start trying some prototype exercicies?",
+  "main": "improvedArrays.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
