@@ -17,7 +17,7 @@ function App() {
   const invalidEmail = email !== '' && !email.match(emailRegex);
   const invalidPass = pass !== '' && pass.length < 6;
 
-  const submit = async () => {
+  const submit = () => {
     setTried(true);
 
     if ((invalidEmail || !email) || (invalidPass || !pass)) {
